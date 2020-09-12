@@ -33,6 +33,7 @@ class Tab extends Component {
               <tr>
                 <th>Employee Name</th>
                 <th>Employee Job</th>
+                <th>Remove Employe</th>
               </tr>
             </thead>
             <tbody>
