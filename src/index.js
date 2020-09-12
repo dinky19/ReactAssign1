@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
 import * as serviceWorker from './serviceWorker';
-
+import Tab from './prac/a2';
+import A1 from './prac/assignment1';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+     <A1/>
+    <Tab/>
+  </>,
   document.getElementById('root')
 );
 
